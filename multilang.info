@@ -1,0 +1,50 @@
+name = Mulitlang
+description = Install with commonly used features pre-configured.
+version = VERSION
+core = 7.x
+
+; core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contact
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Contrib
+dependencies[] = admin_menu
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = field_group
+dependencies[] = link
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = user_reference
+dependencies[] = views
+dependencies[] = views_ui
+
+; Features
+
+; Migration
+
+files[] = multilang.profile
+
+
+
