@@ -17,7 +17,7 @@ LAST_RETURN_VALUE=0
 
 # Run drush make
 if [ $LAST_RETURN_VALUE -eq 0 ]; then
-  drush make --yes --working-copy --no-core --contrib-destination=. --translations=de multilang.make
+  drush make --yes --working-copy --no-core --contrib-destination=. --translations=fr multilang.make
   LAST_RETURN_VALUE=$?
   if [ $LAST_RETURN_VALUE -ne 0 ]; then
     echo "There was a problem with drush make."

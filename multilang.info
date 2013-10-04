@@ -12,6 +12,7 @@ dependencies[] = dashboard
 dependencies[] = help
 dependencies[] = image
 dependencies[] = list
+dependencies[] = locale
 dependencies[] = menu
 dependencies[] = number
 dependencies[] = options
@@ -30,6 +31,7 @@ dependencies[] = context_ui
 dependencies[] = ctools
 dependencies[] = devel
 dependencies[] = diff
+dependencies[] = entity
 dependencies[] = features
 dependencies[] = link
 dependencies[] = pathauto
@@ -37,9 +39,20 @@ dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
 
+; Localization and Internationalization
+dependencies[] = i18n
+dependencies[] = i18n_node
+dependencies[] = i18n_string
+dependencies[] = i18n_sync
+dependencies[] = i18n_field
+dependencies[] = i18n_taxonomy
+dependencies[] = i18n_block
+dependencies[] = i18n_menu
+dependencies[] = potx
+
+
 ; Features
 
-; Migration
 
 files[] = multilang.profile
 
