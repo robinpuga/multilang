@@ -59,11 +59,8 @@ projects[pathauto][subdir] = contrib
 projects[potx][version] = 1.0
 projects[potx][subdir] = contrib
 
-projects[simple_i18n_boxes][subdir] = contrib
-projects[simple_i18n_boxes][type] = module
-projects[simple_i18n_boxes][download][type] = git
-projects[simple_i18n_boxes][download][url] = http://git.drupal.org/sandbox/raphaelhuefner/1748400.git
-projects[simple_i18n_boxes][download][revision] = 1b2b41bd5edbd65a9aebde7f79f523615cdaabcc
+projects[token][version] = 1.5
+projects[token][subdir] = contrib
 
 projects[translation_helpers][version] = 1.0
 projects[translation_helpers][subdir] = contrib

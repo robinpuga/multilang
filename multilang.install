@@ -10,8 +10,6 @@ define('COMPLETENESS_DEFAULT', 'partial');
 function multilang_install() {
   // Set some variables
   
-  variable_set('theme_default', 'multilang');
-  
   drupal_flush_all_caches();
 
   // Insert default pre-defined RDF mapping into the database.
