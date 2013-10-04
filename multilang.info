@@ -1,5 +1,5 @@
 name = Mulitlang
-description = Install with commonly used features pre-configured.
+description = Install with commonly used multi-lingual modules.
 version = VERSION
 core = 7.x
 
@@ -47,4 +47,11 @@ dependencies[] = views_ui
 files[] = multilang.profile
 
 
+
+
+
+; Information added by drush on 2013-10-05
+version = "unknown"
+project = "multilang"
+datestamp = "1380924999"
 
