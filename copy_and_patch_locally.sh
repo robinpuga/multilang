@@ -11,9 +11,9 @@ if [ $LAST_RETURN_VALUE -eq 0 ]; then
   # As drush make doesn't support single file injection into already existing directories, we do it here.
   while read project_name version; do
     core_version=${version:0:3}
-    echo "download modules/contrib/$project_name/translations/de.po"
+    echo "download modules/contrib/$project_name/translations/fr.po"
     mkdir -p modules/contrib/$project_name/translations
-    curl http://ftp.drupal.org/files/translations/$core_version/$project_name/$project_name-$version.de.po > modules/contrib/$project_name/translations/de.po
+    curl http://ftp.drupal.org/files/translations/$core_version/$project_name/$project_name-$version.fr.po > modules/contrib/$project_name/translations/fr.po
     LAST_RETURN_VALUE=$?
     if [ $LAST_RETURN_VALUE -ne 0 ]; then
       echo "There was a problem with downloading the translation for project $project_name"
