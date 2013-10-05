@@ -22,6 +22,7 @@ if [ $LAST_RETURN_VALUE -eq 0 ]; then
     fi
   done <<EOD
 location 7.x-1.0-beta1
+Date 7.x-2.6
 EOD
 fi
 # cck --> didn't find any close-by sensible git tag

@@ -35,8 +35,14 @@ projects[admin_menu][subdir] = contrib
 projects[backup_migrate][version] = 2.4
 projects[backup_migrate][subdir] = contrib
 
+projects[date][version] = 2.6
+projects[date][subdir] = contrib
+
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0
+
+projects[entity_translation][subdir] = contrib
+projects[entity_translation][version] = 1.0-beta3
 
 projects[i18n][version] = 1.8
 projects[i18n][subdir] = contrib
@@ -46,6 +52,9 @@ projects[image_caption][subdir] = contrib
 
 projects[l10n_client][version] = 1.1
 projects[l10n_client][subdir] = contrib
+
+projects[l10n_update][version] = 1.0-beta3
+projects[l10n_update][subdir] = contrib
 
 projects[libraries][version] = 2.1
 projects[libraries][subdir] = contrib
